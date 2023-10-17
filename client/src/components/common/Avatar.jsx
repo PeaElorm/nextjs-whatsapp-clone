@@ -33,6 +33,12 @@ function Avatar({ type, image, setImage }) {
         console.log("Taking a photo...");
       },
     },
+    {
+      name: "Take Photo",
+      callback: () => {
+        console.log("Taking a photo...");
+      },
+    },
   ];
 
   return (
